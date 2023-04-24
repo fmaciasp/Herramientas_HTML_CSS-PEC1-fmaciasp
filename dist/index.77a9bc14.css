@@ -1,4 +1,8 @@
 @import "https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap";
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: Inter, sans-serif;
 }
@@ -297,6 +301,10 @@ blockquote {
 
   h2 {
     font-size: 1.3rem;
+  }
+
+  nav li {
+    margin: 0;
   }
 
   .lista_categoria {
